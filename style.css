@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/***********
+Navbar
+******/
+nav{
+    background: #fff!important;
+    box-shadow: 1px 1px 2px #4444;
+}
+nav.navbar-brand{
+   color: var(--bs-orange)!important;
+}
+.navbar-nav .nav-link{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none!important;
+    padding: none!important;
+
+}
+
+/**************
+   carousel
+***********/
+.carousel-inner .carousel-item{
+    width: 100px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-inner .carousel-item::before{
+    content: ;
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+    
+}
